@@ -1,16 +1,20 @@
 .letter {
 
-        		width:300px; /*resize as you see fit */
+        		width:200px; /*resize as you see fit */
         		height:300px; /*resize as you see fit */
         		display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
-        		border:1px solid black; /*feel free to remove or hide this rule */
+        		border:1px transparent; /*feel free to remove or hide this rule */
         		position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
         	}
 
         /* Letter A */
         
-.letter-a {
-	width:200px;
+.letter-m {
+	width:300px;
+}
+
+.letter-w {
+	width:300px;
 }
 
         .aBowl {
@@ -306,7 +310,7 @@
 			height: 250px;
 			width: 50px;
 			top: 25px;
-			left: 100px;
+			left: 75px;
 			background: black;
 
 		}
@@ -621,8 +625,8 @@
 		}
 
 		.sCounter1 {
-			height: 55px;
-			width: 100px;
+			height: 53px;
+			width: 55px;
 			border-top-left-radius: 100px;
 			border-bottom-left-radius: 100px;
 			border-bottom-right-radius: -30px;
@@ -635,13 +639,34 @@
 		}
 
 		.sCounter2 {
-			height: 55px;
+			height: 54px;
 			width: 50px;
 			border-top-right-radius: 100px;
 			border-bottom-right-radius: 100px;
-			top:170px;
+			top:171px;
 			left: 75px;
 			background: white;
+			z-index: 2;
+			position: absolute;
+		}
+
+
+		.sPoint1 {
+			height: 50px;
+			width: 50px;
+			top:25px;
+			left: 120px;
+			z-index: 2;
+			background:black;
+			position: absolute;
+		}
+
+		.sPoint2 {
+			height: 48px;
+			width: 50px;
+			top:225px;
+			left: 35px;
+			background:black;
 			z-index: 2;
 			position: absolute;
 		}
