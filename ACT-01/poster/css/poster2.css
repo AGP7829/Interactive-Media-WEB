@@ -35,11 +35,12 @@ article {
 }
 
 .sidebar {
-  background-color: blue;
-  padding: 80px;
+  background-color: royalblue;
+  padding-right: 80px;
   top: 22%;
   position:fixed;
-  width: 30%;
+  width: 35%;
+  overflow: hidden;
 
 }
 
@@ -64,6 +65,12 @@ h2 {
 h3 {
 	color: #ffeefa;
 	font-size: 320%;
+}
+
+h4 {
+  font-weight: 700;
+  font-size:14pt;
+  color:#fff0f9;
 }
 
 p {
