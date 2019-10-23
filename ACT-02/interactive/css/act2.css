@@ -1,0 +1,41 @@
+/*#text {
+  width: auto;
+  outline:none;
+  top: 200px;
+  position:absolute;
+  display: block;
+  margin-bottom: 10px;
+  background-color: yellow;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 64pt;
+  border: none;
+  margin:auto;
+  padding:1em;
+
+}*/
+body {
+	font-family: 'Archivo Black', sans-serif;
+}
+
+h1 {
+  font-size: 50pt;
+}
+
+input {
+  width: 100%;
+  outline:none;
+  top: 200px;
+  position:absolute;
+  display: block;
+  margin-bottom: 10px;
+  background-color: yellow;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 64pt;
+  text-align: center;
+  border: none;
+  margin:auto;
+}
+
+.policeSiren {
+  background: blue;
+}
