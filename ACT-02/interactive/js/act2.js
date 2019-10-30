@@ -82,6 +82,10 @@ $(":text").keyup(function checkWords(word){
 		} else if (search == "scroll down"){
 			$(this).val("");
 			$("html, body").animate({ scrollTop: $(document).height()-$(window).height() });	
+
+		} else if (search == "print"){
+			$(this).val("");
+			window.print();	
 		
 		
 	}})
