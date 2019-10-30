@@ -73,7 +73,7 @@ $(":text").keyup(function checkWords(word){
 
 		} else if (search == "load"){
 			$(this).val("");
-			$("selector").css("cursor", "wait");
+			$("body").css("cursor", "wait");
 		
 		} else if (search == "scroll up"){
 			$(this).val("");
