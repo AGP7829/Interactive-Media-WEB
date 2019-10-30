@@ -74,6 +74,14 @@ $(":text").keyup(function checkWords(word){
 		} else if (search == "load"){
 			$(this).val("");
 			$("body").css("cursor", "wait");
+
+		} else if (search == "cursor"){
+			$(this).val("");
+			$("body").css("cursor", "default");
+
+		} else if (search == "hand"){
+			$(this).val("");
+			$("body").css("cursor", "pointer");
 		
 		} else if (search == "scroll up"){
 			$(this).val("");
