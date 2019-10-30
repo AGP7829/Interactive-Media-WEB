@@ -85,7 +85,7 @@ $(":text").keyup(function checkWords(word){
 
 		} else if (search == "print"){
 			$(this).val("");
-			window.print();	
+			window.print();
 		
 		
 	}})
