@@ -13,29 +13,62 @@
   padding:1em;
 
 }*/
-body {
+html, body {
 	font-family: 'Archivo Black', sans-serif;
+  height: 200%;
+  min-height:100%;
 }
 
 h1 {
-  font-size: 50pt;
+  font-size: 25pt;
+  color: black;
+  padding: 10px;
 }
 
 input {
-  width: 100%;
+  top: 50%;
+  left:50%;
+  width: 90%;
+  border: 1px solid black;
   outline:none;
-  top: 200px;
-  position:absolute;
-  display: block;
-  margin-bottom: 10px;
-  background-color: yellow;
+  bottom: 200px;
+  position:fixed;
+  background-color: white, opacity 0.5;
+  box-shadow: 8px 10px black;
   font-family: 'Archivo Black', sans-serif;
-  font-size: 64pt;
+  font-size: 100pt;
   text-align: center;
-  border: none;
-  margin:auto;
+  transform: translate(-50%, -50%);
+}
+
+::placeholder {
+  opacity: 0.3;
+  font-size:80pt;
 }
 
 .policeSiren {
-  background: blue;
+  background: blue
+}
+
+.whiteType {
+color: white;
+}
+
+#knockJoke {
+  visibility: hidden;
+  position: absolute;
+  border: 1px solid black;
+  background:white;
+  top: 70%;
+  left:40%;
+}
+
+#funny {
+  visibility: hidden;
+  position: absolute;
+  border: 1px solid black;
+}
+
+.close {
+  content:"";
 }
