@@ -1,0 +1,19 @@
+.noList {
+	max-width: 50%;
+}
+
+body {
+	font-family: 'Kanit', sans-serif;
+}
+
+#recipe {
+	width: 50%;
+	font-weight: 400;
+	font-size: 12pt;
+}
+
+p {
+	bottom: 25px;
+	right: 180%;
+	width: 50%;
+}
