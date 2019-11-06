@@ -1,0 +1,3 @@
+$("#recipe").click(function(){
+	draggable();
+});

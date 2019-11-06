@@ -1,19 +1,48 @@
-.noList {
-	max-width: 50%;
+#notRecipe {
+	bottom: 25px;
+	right: 180px;
 }
+
+h1 {
+	font-size: 30pt;
+}
+ 
 
 body {
 	font-family: 'Kanit', sans-serif;
+	
 }
 
+#container {
+	position: relative;
+	margin:0px;
+	padding:0px;
+	vertical-align: top;
+}
+
+#title {
+	position: absolute;
+	top: 10px;
+	left:150px;
+} 
+
 #recipe {
+	position:absolute;
 	width: 50%;
 	font-weight: 400;
 	font-size: 12pt;
+	top: 100px;
+	left:200px;
+	background:white;
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+}
+
+#paragraph {
+	position: absolute;
+	bottom: 200px;
+	left: 300px;
 }
 
 p {
-	bottom: 25px;
-	right: 180%;
-	width: 50%;
+	width: 500px;
 }
