@@ -1,3 +1,3 @@
-$("#recipe").click(function(){
-	$(this).draggable();
-});
+$(document).ready(function(){
+	$("#recipe").draggable();
+})
