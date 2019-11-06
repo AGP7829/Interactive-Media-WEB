@@ -10,6 +10,8 @@ h1 {
 
 body {
 	font-family: 'Kanit', sans-serif;
+	background-image: url(../images/food-2879265_1280.jpg);
+	background-repeat: no-repeat;
 	
 }
 
@@ -39,10 +41,11 @@ body {
 
 #paragraph {
 	position: absolute;
-	bottom: 200px;
+	bottom: 100px;
 	left: 300px;
+	width: 60%;
 }
 
 p {
-	width: 500px;
+	font-size:14pt;
 }
