@@ -101,4 +101,4 @@ $(":text").keyup(function checkWords(word){
 		}
 		
 		
-	}})
+	})
