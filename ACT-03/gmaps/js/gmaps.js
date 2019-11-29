@@ -33,8 +33,8 @@ function initMap() {
     ['<h1>Copenhagen, Denmark</h1>'+
     '<h2></h2>'+
     '<audio controls>'+
-    '<source src="https://ia600606.us.archive.org/4/items/grimm_fairy_tales_1202_librivox/grimmsfairytales_19_grimm.ogg" type="audio/ogg;">' +
-    '<source src="https://ia800606.us.archive.org/4/items/grimm_fairy_tales_1202_librivox/grimmsfairytales_19_grimm.mp3" type="audio/mpeg;">' +
+    '<source src=".ogg" type="audio/ogg;">' +
+    '<source src=".mp3" type="audio/mpeg;">' +
     '</audio>', 55.6761, 12.5683],
     //china
     ['<h1>China</h1>'+
