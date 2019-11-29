@@ -94,10 +94,6 @@ $(":text").keyup(function checkWords(word){
 		} else if (search == "print"){
 			$(this).val("");
 			window.print();
-
-		}else{
-			$(this).val("");
-			$("input").effect("shake")
 		}
 		
 		
