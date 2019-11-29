@@ -10,7 +10,7 @@ function initMap() {
   var locations = [
     ['<h1>JAPAN</h1>'+
     '<h2>The Bamboo Cutter - Traditional folktale</h2>'+
-    '<audio controls>'+
+    '<audio id="jpn" controls>'+
     '<source src="../audio/japanese-fairy-tales-002-the-bamboo-cutter-and-the-moon-child.4834.ogg" type="audio/ogg;">' +
     '<source src="../audio/japanese-fairy-tales-002-the-bamboo-cutter-and-the-moon-child.4834.mp3" type="audio/mpeg;">' +
     '</audio>', 
@@ -23,11 +23,11 @@ function initMap() {
     '<source src="https://ia800606.us.archive.org/4/items/grimm_fairy_tales_1202_librivox/grimmsfairytales_19_grimm.mp3" type="audio/mpeg;">' +
     '</audio>', 51.165, 10.451],
     //italy
-    ['<h1>I</h1>'+
+    ['<h1>ITALY</h1>'+
     '<h2>Sun, Moon, & Talia - Giambattista Basile</h2>'+
     '<audio controls>'+
-    '<source src="https://ia600207.us.archive.org/8/items/stories_from_pentamerone_jc_librivox/pentamerone_29_basile.ogg" type="audio/ogg;">' +
-    '<source src="https://ia800207.us.archive.org/8/items/stories_from_pentamerone_jc_librivox/pentamerone_29_basile_64kb.mp3" type="audio/mpeg;">' +
+    '<source src="https://ia600207.us.archive.org/8/items/stories_from_pentamerone_jc_librivox/pentamerone_29_basile.ogg#t=00:00:24" type="audio/ogg;">' +
+    '<source src="https://ia800207.us.archive.org/8/items/stories_from_pentamerone_jc_librivox/pentamerone_29_basile_64kb.mp3#t=00:00:24" type="audio/mpeg;">' +
     '</audio>', 41.871, 12.567],
     //denmark
     ['<h1>Copenhagen, Denmark</h1>'+
@@ -68,8 +68,8 @@ function initMap() {
     ['<h1>Norway</h1>'+
     '<h2>East of the Sun, West of the Moon</h2>'+
     '<audio controls>'+
-    '<source src="https://ia800706.us.archive.org/12/items/eastsunwestmoon_1011_librivox/eastsunwestmoon_01_asbjoernsen_moe.ogg" type="audio/ogg;">' +
-    '<source src="https://ia600706.us.archive.org/12/items/eastsunwestmoon_1011_librivox/eastsunwestmoon_01_asbjoernsen_moe_64kb.mp3" type="audio/mpeg;">' +
+    '<source src="https://ia800706.us.archive.org/12/items/eastsunwestmoon_1011_librivox/eastsunwestmoon_01_asbjoernsen_moe.ogg#t=00:00:20" type="audio/ogg;">' +
+    '<source src="https://ia600706.us.archive.org/12/items/eastsunwestmoon_1011_librivox/eastsunwestmoon_01_asbjoernsen_moe_64kb.mp3#t=00:00:20" type="audio/mpeg;">' +
     '</audio>', 60.472024, 8.468946],
     //france
     ['<h1>France</h1>'+
@@ -84,13 +84,14 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 3,
     center: center,
-    //Map Style - "Pale Dawn" by Adam Krogh from snazzymaps.com
-    styles: [{
+    //Map Style - modified style, "Pale Dawn" by Adam Krogh from snazzymaps.com
+    styles: [
+    {
         featureType: "administrative",
         elementType: "all",
         stylers: [
             {
-                visibility: "on"
+                "visibility": "on"
             },
             {
                 lightness: 33
@@ -102,7 +103,25 @@ function initMap() {
         elementType: "all",
         stylers: [
             {
-                color: "#f2e5d4"
+                "color": "#f2e5d4"
+            }
+        ]
+    },
+    {
+        featureType: "landscape.man_made",
+        elementType: "all",
+        stylers: [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        featureType: "poi.park",
+        elementType: "all",
+        stylers: [
+            {
+                "visibility": "off"
             }
         ]
     },
@@ -111,7 +130,7 @@ function initMap() {
         elementType: "geometry",
         stylers: [
             {
-                color: "#c5dac6"
+                "color": "#c5dac6"
             }
         ]
     },
@@ -120,7 +139,7 @@ function initMap() {
         elementType: "labels",
         stylers: [
             {
-                visibility: "on"
+                "visibility": "off"
             },
             {
                 lightness: 20
@@ -133,6 +152,18 @@ function initMap() {
         stylers: [
             {
                 lightness: 20
+            },
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        featureType: "road.highway",
+        elementType: "all",
+        stylers: [
+            {
+                "visibility": "off"
             }
         ]
     },
@@ -141,7 +172,19 @@ function initMap() {
         elementType: "geometry",
         stylers: [
             {
-                color: "#c5c6c6"
+                "color": "#c5c6c6"
+            },
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        featureType: "road.arterial",
+        elementType: "all",
+        stylers: [
+            {
+                "visibility": "off"
             }
         ]
     },
@@ -150,7 +193,10 @@ function initMap() {
         elementType: "geometry",
         stylers: [
             {
-                color: "#e4d7c6"
+                "color": "#e4d7c6"
+            },
+            {
+                "visibility": "off"
             }
         ]
     },
@@ -159,14 +205,30 @@ function initMap() {
         elementType: "geometry",
         stylers: [
             {
-                color: "#fbfaf7"
+                "color": "#fbfaf7"
+            }
+        ]
+    },
+    {
+        featureType: "transit",
+        elementType: "all",
+        stylers: [
+            {
+                "visibility": "off"
             }
         ]
     },
     {
         featureType: "water",
         elementType: "all",
-        stylers: [{visibility: "on"},{color: "#acbcc9"}]
+        stylers: [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#acbcc9"
+            }
+        ]
     }
 ]
 
