@@ -79,7 +79,7 @@ function initMap() {
     ['<h1>FRANCE</h1>'+
     '<h2><i>Cinderella</i> - Charles Perrault</h2>'+
     '<audio controls>'+
-    '<source src=".mp3" type="audio/mpeg;">' +
+    '<source src="https://ia800501.us.archive.org/35/items/fairy_tales_perrault_1105_librivox/fairytalesofcharlesperrault_06_perrault_64kb.mp3#t=00:00:25" type="audio/mpeg;">' +
     '</audio>', 46.227638, 2.213749],
 
     //philippines
@@ -129,6 +129,12 @@ function initMap() {
     "<p></p>"
     , 42.842, -81.27],
 
+        //west africa
+    ['<h1>WEST AFRICA</h1>'+
+    '<h2><i></h2>'+
+    "<p></p>"
+    , 42.842, -81.27],
+
     //spain
     ['<h1>SPAIN</h1>'+
     '<h2><i>The Bird of Truth</i> - Cecilia Böhl de Faber</h2>'+
@@ -136,7 +142,7 @@ function initMap() {
     '<audio controls>'+
     '<source src="https://ia600708.us.archive.org/34/items/orange_fairy_book_1005_librivox/orangefairybook_27_lang_64kb.mp3#t=00:00:21" type="audio/mpeg;">' +
     '</audio>', 40.463667, -3.74922],
-    
+
     //Russia
     ['<h1>RUSSIA</h1>'+
     '<h2><i>Sadko</i> - Traditional Story</h2>'+
