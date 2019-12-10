@@ -50,14 +50,15 @@ function initMap() {
 
     //uk
     ['<h1>England, UNITED KINGDOM</h1>'+
-    '<h2><i></i> - Traditional Folktale</h2>'+
+    '<h2><i>Jack & The Beanstalk</i> - Traditional Fairytale</h2>'+
+    "<p>This famous fairytale is of English origin. A common trait between this tale and other English fairytales is the use of a main hero named Jack. These are known as 'Jack Tales'.</p>" +
     '<audio controls>'+
     '<source src=".mp3" type="audio/mpeg;">' +
     '</audio>', 51.50986, -0.118],
 
     //Mesoamerica - Yucatan, Mexico
-    ['<h1>MESOAMERICAN MYTHOLOGY</h1>'+
-    '<h2>The Feathered Serpent</h2>'+
+    ['<h1>MEXICO</h1>'+
+    '<h2><i>The Feathered Serpent</i> - Mesoamerican Mythology</h2>'+
     '<audio controls>'+
     '<source src=".mp3" type="audio/mpeg;">' +
     '</audio>', 20.587740, -88.9689],
@@ -65,13 +66,15 @@ function initMap() {
     //Greece
     ['<h1>GREECE</h1>'+
     '<h2><i>Orpheus & Eurydice</i> - Traditional Mythology</h2>'+
+    '<p>The myth of Orpheus & Eurydice is a famous example of tragic romance from the ancient world. After his wife, Eurydice, dies from a snake bite, a grieving Orpheus ventures to the Underworld for a chance to see her again.</p>' +
     '<audio controls>'+
     '<source src="https://ia802509.us.archive.org/24/items/oldgreeceandrome_1407_librivox/storiesofoldgreeceandrome_14_baker_64kb.mp3" type="audio/mpeg;">' +
     '</audio>', 39.0742, 21.8243],
 
     //norway
     ['<h1>NORWAY</h1>'+
-    '<h2><i>East of the Sun, West of the Moon</i> -  Peter Christen Asbjørnsen and Jørgen Moe</h2>'+
+    '<h2><i>East of the Sun and West of the Moon</i> -  Peter Christen Asbjørnsen and Jørgen Moe</h2>'+
+    '<p>Collected from Norway, this fairytale is similar in story structure to "Beauty and the Beast" and the Greek myth of Cupid and Psyche. A young woman sets out to find a prince who was cursed.</p>' +
     '<audio controls>'+
     '<source src="https://ia600706.us.archive.org/12/items/eastsunwestmoon_1011_librivox/eastsunwestmoon_01_asbjoernsen_moe_64kb.mp3#t=00:00:32" type="audio/mpeg;">' +
     '</audio>', 60.472024, 8.468946],
@@ -106,13 +109,14 @@ function initMap() {
     //estonia
     ['<h1>ESTONIA</h1>'+
     '<h2><i>The Dragon of the North</i> - Dr. Friedrich Kreutzwald</h2>'+
+    '<p>Collected by the "Estonian father of literature", this fairytale is an Estonian take on the traditional "dragon slayer and princess rescue" story.</p>' +
     '<audio controls>'+
     '<source src="https://ia802702.us.archive.org/1/items/yellow_fairy_book_0801_librivox/yellowfairybook_03_lang.mp3#t=00:00:22" type="audio/mpeg;">' +
     '</audio>', 58.595272, 25.013607],
 
     //romania
     ['<h1>ROMANIA</h1>'+
-    '<h2><i>The Boys with the Golden Stars</i></h2>'+
+    '<h2><i>The Boys with the Golden Stars</i> - Traditional Fairytale</h2>'+
     '<audio controls>'+
     '<source src="https://ia601901.us.archive.org/11/items/violetfairy_1302_librivox/violetfairybook_28_lang_64kb.mp3#t=00:00:22" type="audio/mpeg;">' +
     '</audio>', 45.943161, 24.96676],
@@ -128,10 +132,12 @@ function initMap() {
     //iroquois
     ['<h1>Indigenous Peoples of NORTH AMERICA</h1>'+
     '<h2><i>Turtle Island</i> - Creation Myth</h2>'+
-    "<p></p>"
+    "<p>In some Ojibwe oral traditions, the story of Turtle Island begins with a flooded Earth. The Creator had cleansed the world of feuding peoples in order to begin life anew. Some animals survived the flood, such as the loon, the muskrat and the turtle. Nanabush (Nanabozo) (or Weesakayjack in some Cree tales) — a supernatural being who has the power to create life in others — was also present. Nanabush asked the animals to swim deep beneath the water and collect soil that would be used to recreate the world. One by one the animals tried, but one by one they failed. The last animal that tried — the muskrat — was underwater for a long time, and when it resurfaced, the little animal had wet soil in its paws. The journey took the muskrat’s life, but the creature did not die in vain. Nanabush took the soil and put it on a willing turtle’s back. This became known as Turtle Island, the centre of creation.</p>" +
+    "<p>Many Haudenosaunee versions of the tale start in the Sky World — a land in the heavens where supernatural beings existed. One day, a pregnant Sky Woman fell through a hole under the roots of a tree and descended to Earth. Gently guided down by birds that saw her falling through the sky, she was placed safely onto a turtle’s back. Sky Woman was grateful to the animals for helping her. In some versions, her appreciation was so powerful that the earth began to grow around her, forming Turtle Island. In other versions, the animals brought forth mud from the bottom of the water, which grew on top of turtle’s back and formed a new land for Sky Woman and her descendants — Turtle Island.</p>" +
+    '<a href="https://thecanadianencyclopedia.ca/en/article/turtle-island">Source</a>'
     , 42.842, -81.27],
 
-        //west africa
+    //west africa
     ['<h1>WEST AFRICA</h1>'+
     '<h2><i></h2>'+
     "<p></p>"
@@ -147,10 +153,10 @@ function initMap() {
 
     //Russia
     ['<h1>RUSSIA</h1>'+
-    '<h2><i>Sadko</i> - Traditional Story</h2>'+
-    '<p>Sadko</p>' +
+    '<h2><i>The Death of Koschei the Deathless</i> - Traditional Folklore</h2>'+
+    '<p>The character Koschei is an immortal (often a sorcerer/magician) and recurring antagonist in Russian folklore. This tale reveals how he was killed in the hands of the Russian folkloric hero, Ivan Tsarevitch.</p>' +
     '<audio controls>'+
-    '<source src=".mp3" type="audio/mpeg;">' +
+    '<source src="https://ia802608.us.archive.org/1/items/red_fairy_book_0908_librivox/redfairybook_04_lang.mp3#t=00:00:35" type="audio/mpeg;">' +
     '</audio>', 61.52401, 105.3187]
     ];
 
