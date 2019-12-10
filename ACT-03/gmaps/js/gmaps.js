@@ -55,14 +55,7 @@ function initMap() {
     '<audio controls>'+
     '<source src=".mp3" type="audio/mpeg;">' +
     '</audio>', 51.50986, -0.118],
-
-    //Mesoamerica - Yucatan, Mexico
-    ['<h1>MEXICO</h1>'+
-    '<h2><i>The Feathered Serpent</i> - Mesoamerican Mythology</h2>'+
-    '<audio controls>'+
-    '<source src=".mp3" type="audio/mpeg;">' +
-    '</audio>', 20.587740, -88.9689],
-
+    
     //Greece
     ['<h1>GREECE</h1>'+
     '<h2><i>Orpheus & Eurydice</i> - Traditional Mythology</h2>'+
