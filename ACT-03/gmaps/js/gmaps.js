@@ -11,7 +11,7 @@ function initMap() {
     //japan
     ['<h1>JAPAN</h1>'+
     '<h2><i>The Bamboo Cutter</i> - Traditional Folktale</h2>' +
-    "<p>The tale of the Bamboo Cutter is one of Japan's classic folktales. It's also known as 'The Tale of Princess Kaguya' since the character is the story's actual protagonist.</p>" +
+    "<p>The tale of the Bamboo Cutter is one of Japan's classic folktales. It's also known as 'The Tale of Princess Kaguya' since the character is the story's true protagonist.</p>" +
     '<audio id="jpn" controls>'+
     '<source src="../audio/japanese-fairy-tales-002-the-bamboo-cutter-and-the-moon-child.4834.mp3#t=00:00:08" type="audio/mpeg;">' +
     '</audio>', 
@@ -35,7 +35,7 @@ function initMap() {
     //denmark
     ['<h1>Copenhagen, DENMARK</h1>'+
     '<h2><i>The Steadfast Tin Soldier</i> - Hans Christian Andersen</h2>'+
-    "<p>Although this is tale is lesser known than Andersen's other famous tales (The Little Mermaid, The Ugly Duckling, The Princess and the Pea, etc.), it still remains to be one of his beloved tales." +
+    "<p>Although this tale is lesser known than Andersen's other famous tales (The Little Mermaid, The Ugly Duckling, The Princess and the Pea, etc.), it still remains to be one of his beloved tales.</p>" +
     '<audio controls>'+
     '<source src="https://ia800602.us.archive.org/15/items/faery_tales_andersen_1706_librivox/faerytales_13_andersen_64kb.mp3#t=00:00:25" type="audio/mpeg;">' +
     '</audio>', 55.6761, 12.5683],
@@ -98,8 +98,9 @@ function initMap() {
     //iran
     ['<h1>IRAN</h1>'+
     '<h2><i>Ali Baba & the Forty Thieves</i> - One Thousand and One Nights</h2>' +
+    "<p>One Thousand and One Nights is a collection of folktales told from the Middle East. One of the collection's famous stories, Ali Baba & the Forty Thieves, is set in Persia (present-day Iran). It is also believed that the story was also told in Iran, alongside India and Saudi Arabia.</p>" +
     '<audio controls>'+
-    '<source src="https://ia801206.us.archive.org/26/items/storiesfromthearabiannights_1610_librivox/storiesfromthearabiannights_03_housman_64kb.mp3#t=00:00:22" type="audio/mpeg;">' +
+    '<source src="https://ia800705.us.archive.org/35/items/blue_fairy_book_0707_librivox/bluefairybook_23_lang.mp3#t=00:00:22" type="audio/mpeg;">' +
     '</audio>', 32.427908, 53.688046],
 
     //estonia
@@ -134,7 +135,7 @@ function initMap() {
     ['<h1>WEST AFRICA</h1>'+
     '<h2><i></h2>'+
     "<p></p>"
-    , 42.842, -81.27],
+    , 13.5317, 2.4604],
 
     //spain
     ['<h1>SPAIN</h1>'+
