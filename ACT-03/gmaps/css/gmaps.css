@@ -1,2 +1,34 @@
 /*still figuring out how to customize gmaps infowindow!?!*/
 
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        font-family: 'Playfair Display', serif;        
+        font-weight: 700;
+        font-size: 24pt;
+        text-align: center;
+        color: #473f35;
+      }
+
+      h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        text-align:center;
+        line-height: 20pt;
+      }
+
+      h3 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        text-align:center;
+        font-size:12pt;
+      }
+
+      p {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size:10pt;
+      }
