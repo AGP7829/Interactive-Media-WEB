@@ -55,7 +55,7 @@ function initMap() {
     '<audio controls>'+
     '<source src=".mp3" type="audio/mpeg;">' +
     '</audio>', 51.50986, -0.118],
-    
+
     //Greece
     ['<h1>GREECE</h1>'+
     '<h2><i>Orpheus & Eurydice</i> - Traditional Mythology</h2>'+
@@ -129,12 +129,6 @@ function initMap() {
     "<p>Many Haudenosaunee versions of the tale start in the Sky World — a land in the heavens where supernatural beings existed. One day, a pregnant Sky Woman fell through a hole under the roots of a tree and descended to Earth. Gently guided down by birds that saw her falling through the sky, she was placed safely onto a turtle’s back. Sky Woman was grateful to the animals for helping her. In some versions, her appreciation was so powerful that the earth began to grow around her, forming Turtle Island. In other versions, the animals brought forth mud from the bottom of the water, which grew on top of turtle’s back and formed a new land for Sky Woman and her descendants — Turtle Island.</p>" +
     '<a href="https://thecanadianencyclopedia.ca/en/article/turtle-island">Source</a>'
     , 42.842, -81.27],
-
-    //west africa
-    ['<h1>WEST AFRICA</h1>'+
-    '<h2><i></h2>'+
-    "<p></p>"
-    , 13.5317, 2.4604],
 
     //spain
     ['<h1>SPAIN</h1>'+
