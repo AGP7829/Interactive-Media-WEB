@@ -35,6 +35,7 @@ function initMap() {
     //denmark
     ['<h1>Copenhagen, DENMARK</h1>'+
     '<h2><i>The Steadfast Tin Soldier</i> - Hans Christian Andersen</h2>'+
+    "<p>Although this is tale is lesser known than Andersen's other famous tales (The Little Mermaid, The Ugly Duckling, The Princess and the Pea, etc.), it still remains to be one of his beloved tales." +
     '<audio controls>'+
     '<source src="https://ia800602.us.archive.org/15/items/faery_tales_andersen_1706_librivox/faerytales_13_andersen_64kb.mp3#t=00:00:25" type="audio/mpeg;">' +
     '</audio>', 55.6761, 12.5683],
