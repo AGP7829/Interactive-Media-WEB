@@ -122,7 +122,7 @@ function initMap() {
     '<source src="https://ia600708.us.archive.org/34/items/orange_fairy_book_1005_librivox/orangefairybook_27_lang_64kb.mp3#t=00:00:21" type="audio/mpeg;">' +
     '</audio>', 40.463667, -3.74922],
 
-    //iroquois
+    //indigenous
     ['<h1>Indigenous Peoples of NORTH AMERICA</h1>'+
     '<h2><i>Turtle Island</i> - Creation Myth</h2>'+
     "<p>In some Ojibwe oral traditions, the story of Turtle Island begins with a flooded Earth. The Creator had cleansed the world of feuding peoples in order to begin life anew. Some animals survived the flood, such as the loon, the muskrat and the turtle. Nanabush (Nanabozo) (or Weesakayjack in some Cree tales) — a supernatural being who has the power to create life in others — was also present. Nanabush asked the animals to swim deep beneath the water and collect soil that would be used to recreate the world. One by one the animals tried, but one by one they failed. The last animal that tried — the muskrat — was underwater for a long time, and when it resurfaced, the little animal had wet soil in its paws. The journey took the muskrat’s life, but the creature did not die in vain. Nanabush took the soil and put it on a willing turtle’s back. This became known as Turtle Island, the centre of creation.</p>" +
