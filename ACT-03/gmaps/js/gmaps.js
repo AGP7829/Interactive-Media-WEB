@@ -53,7 +53,7 @@ function initMap() {
     '<h2><i>Jack & The Beanstalk</i> - Traditional Fairytale</h2>'+
     "<p>This famous fairytale is of English origin. A common trait between this tale and other English fairytales is the use of a main hero named Jack. These are known as 'Jack Tales'.</p>" +
     '<audio controls>'+
-    '<source src=".mp3" type="audio/mpeg;">' +
+    '<source src="https://ia902608.us.archive.org/1/items/red_fairy_book_0908_librivox/redfairybook_12_lang.mp3" type="audio/mpeg;">' +
     '</audio>', 51.50986, -0.118],
 
     //Greece
