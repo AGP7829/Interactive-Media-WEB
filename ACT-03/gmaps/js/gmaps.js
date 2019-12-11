@@ -40,14 +40,6 @@ function initMap() {
     '<source src="https://ia800602.us.archive.org/15/items/faery_tales_andersen_1706_librivox/faerytales_13_andersen_64kb.mp3#t=00:00:25" type="audio/mpeg;">' +
     '</audio>', 55.6761, 12.5683],
 
-    //china
-    ['<h1>CHINA</h1>'+
-    '<h2><i> </i> - Traditional Folktale</h2>'+
-    '<audio controls>'+
-    '<source src=".ogg" type="audio/ogg;">' +
-    '<source src=".mp3" type="audio/mpeg;">' +
-    '</audio>', 35.861, 104.1953],
-
     //uk
     ['<h1>England, UNITED KINGDOM</h1>'+
     '<h2><i>Jack & The Beanstalk</i> - Traditional Fairytale</h2>'+
