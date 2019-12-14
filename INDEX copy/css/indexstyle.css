@@ -1,0 +1,36 @@
+body {
+	font-family: 'Fredoka One', cursive;
+	background-color: #1d1d1d;
+}
+
+.act{
+background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.act#one {
+
+}
+
+.act a, h2 {
+display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.act a:hover {
+  background-color: #777;
+}
+
+.act::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+	font-size: 46pt;
+	text-align: center;
+	color:#27dcff;
+}
