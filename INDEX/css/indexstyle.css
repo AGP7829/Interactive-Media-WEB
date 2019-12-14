@@ -3,9 +3,12 @@ body {
 }
 
 .act{
-	background-color: #333;
   overflow: auto;
   white-space: nowrap;
+}
+
+.act#one {
+background-color: #333;
 }
 
 .act a, h2 {
