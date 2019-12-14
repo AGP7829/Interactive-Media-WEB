@@ -1,0 +1,37 @@
+p {
+ font-family: helvetica;
+ width: 850px;
+ background: #7ED86A;	
+ color: white;
+ float: right;
+}
+
+h2 {
+	font-family: garamond;
+	font-size: 18px;
+
+}
+
+h1 {
+	color: #AA5042;
+	font-family: sans-serif;
+}
+
+body {
+	background: #FFFFFF;
+	color: #3366BB;
+}
+
+li {
+	margin: 10px;
+}
+
+.textGreen {
+font-family: helvetica;
+ width: 850px;
+ background: #7ED86A;	
+ color: white;
+ float: right;
+ padding:50px;
+ height: 250px;
+}
