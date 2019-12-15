@@ -34,3 +34,8 @@ h1 {
 	text-align: center;
 	color:#27dcff;
 }
+
+.container {
+	display:inline-block;
+	bottom: 800px;
+}
