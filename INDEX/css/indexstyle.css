@@ -36,6 +36,6 @@ h1 {
 }
 
 .container {
-	display:inline-block;
+	display:inline
 	bottom: 800px;
 }
