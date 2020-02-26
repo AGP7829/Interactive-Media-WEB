@@ -130,6 +130,14 @@ function initMap() {
     '<source src="https://ia600708.us.archive.org/34/items/orange_fairy_book_1005_librivox/orangefairybook_27_lang_64kb.mp3#t=00:00:21" type="audio/mpeg;">' +
     '</audio>', 40.463667, -3.74922],
 
+    //switzerland
+    ['<h1>SWITZERLAND</h1>'+
+    '<h2><i>William Tell</i> - Traditional Folk Hero</h2>'+
+    "<p>Featured in Andrew Lang's Orange Fairy Book, the story was originally a folktale from Andalusia (a group of provinces from Southern Spain) collected by Cecilia Böhl de Faber.</p>" +
+    '<audio controls>'+
+    '<source src="https://ia801809.us.archive.org/35/items/curiousmyths_middleages_1306_librivox/curiousmythsofthemiddleages_07_baring-gould.mp3" type="audio/mpeg;">' +
+    '</audio>', 46.8182, 8.2275],
+
     //Russia
     ['<h1>RUSSIA</h1>'+
     '<h2><i>The Death of Koschei the Deathless</i> - Traditional Folklore</h2>'+
